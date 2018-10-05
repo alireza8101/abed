@@ -1,0 +1,190 @@
+ 
+
+*
+{ margin: 0;
+  padding: 0;}
+
+ 
+
+body
+{ font: normal .80em Century Gothic, arial, sans-serif;
+  background: #FFFFFF url(background.png) repeat;
+  margin: auto;
+    width: 70%;
+   
+   }
+#app{ background-color: #F0EFE2;}
+.logo{
+  
+  padding-left: 10%;
+ width: 100%;
+    max-width: 400px;
+    height: auto;}
+.header  { 
+    background-color:white; 
+}
+.menu {background-color:  rgb(22, 21, 21);
+text-align:  center;  
+    line-height: 4em;
+   vertical-align: middle;
+  height: 10%;
+  font-size: 15px;
+  
+  border-top:  3px solid #67bb4c;
+   }
+ 
+.menu li {display: inline;  padding-right: 1em;  
+  
+ 
+ }
+
+ @media (max-width: 768px) {
+    nav, article {
+        width: 100%;
+        height: auto;
+    }
+    .menu li{display: block}
+    a{ text-decoration: none;color:red}
+
+
+}
+.banner{
+ width: 100%;
+   
+    height: auto;}
+
+.content {  
+     background-image: linear-gradient( #E6E6E6,#ffffff);
+padding-left:2%;
+  display: flex;
+  justify-content: center;
+}
+
+ 
+
+.content div { width: 33.33%;
+ background-image: linear-gradient( #F2F2F2,#E6E6E6); 
+ 
+ margin-right:2%;
+ padding: 2%;
+
+      
+ }
+.img{  width: 100%;
+    height: auto; }
+.content h3 {font-family: Pathway Gothic One;
+color: #5A5858;
+font-size: 24px;}
+
+
+
+
+
+a{ text-decoration: none;color: white}
+a:hover{color:  #67bb4c}
+
+
+
+.btn{ background-color: #4CAF50; /* Green */
+    border: none;
+    border-radius: 12px;
+    color: white;
+    padding: 5px;;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    float: right;
+    }
+
+  hr{ border:none;
+  border-top:1px dotted #f00;
+  color:#fff;
+  background-color:#fff;
+  height:1px;
+  width:70%;
+  margin-bottom: 15px; }
+
+.card{ background-color: #898888;
+margin: 5px;
+padding: 15px;
+width: 150px;height: 20px;}
+.middle1{ background-color:  #4CAF50; 
+    padding: 65px;
+margin:  auto;
+}
+
+
+.footer{ border-top:  6px solid #67bb4c;
+  border-bottom: 6px solid #67bb4c;
+    background-color:  rgb(12, 11, 11);
+    height:15em; 
+     display: flex;
+  justify-content: center;
+ }
+ .footer div{  display: inline-block;
+   color:  #E6E6E6;
+ padding: 1%;
+
+}
+.footer div li{list-style-type: none;
+font-size: 11px;
+ margin: 10px 0;}
+.footer h3 {
+   margin: 25px 0;
+color: #FFFFFF;
+font-size: 14px;}
+
+
+
+.card:hover{ background-color: #67bb4c;}
+
+.cardbody{background-color: #C8C7C7;
+padding: 15px;
+margin: 5px;
+width: 150px;height: 250px;}
+
+blockquote {
+    background: #E6E6E6;
+  border-left: 10px solid #67bb4c;
+  border-right: 10px solid #67bb4c;
+  font-size: 24px;
+  font-family: Pathway Gothic One;
+  width: 90%;
+   padding: 0.5em 10px;
+  quotes: "\201C""\201D""\2018""\2019";
+}
+ .blockquotediv { 
+ padding: 20px;
+ display: flex;
+  justify-content: center;}
+
+input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+.curly-quotes:before {
+  content: '\201C';
+  margin-right: 4px;
+  margin-left: -8px;
+  font-size: 42px;
+  color: #67BB4C;
+}
+
+.curly-quotes:after {
+  content: '\201D';
+  margin-left: 4px;
+  margin-right: -8px;
+   font-size: 42px;
+  color: #67BB4C;
+}
+ 
+.spanleft{ margin-left: 5%;
+  float:left;
+ padding:25px 0px  25px 0;
+}
+ .spanright{margin-right: 5%;
+float:right; padding:25px 0px 25px 0;
+ }
