@@ -94,7 +94,6 @@ a:hover{color:  #67bb4c}
     text-decoration: none;
     display: inline-block;
     font-size: 14px;
-    float: right;
     }
 
   hr{ border:none;
@@ -105,14 +104,25 @@ a:hover{color:  #67bb4c}
   width:70%;
   margin-bottom: 15px; }
 
+.m-content {
+  display: flex;
+  background-color:  #898888;
+  }  
+.m-content> :first-child{background-color: red;
+flex: 1}
+.m-content > :last-child{background-color: yellowgreen;
+flex: 1}
+
 .card{ background-color: #898888;
 margin: 5px;
 padding: 15px;
 width: 150px;height: 20px;}
-.middle1{ background-color:  #4CAF50; 
-    padding: 65px;
-margin:  auto;
-}
+.card:hover{ background-color: #67bb4c;}
+
+.cardbody{background-color: #C8C7C7;
+padding: 15px;
+margin: 5px;
+width: 150px;height: 250px;}
 
 
 .footer{ border-top:  6px solid #67bb4c;
@@ -137,12 +147,7 @@ font-size: 14px;}
 
 
 
-.card:hover{ background-color: #67bb4c;}
 
-.cardbody{background-color: #C8C7C7;
-padding: 15px;
-margin: 5px;
-width: 150px;height: 250px;}
 
 blockquote {
     background: #E6E6E6;
