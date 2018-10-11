@@ -10,9 +10,10 @@ body
 { font: normal .80em Century Gothic, arial, sans-serif;
   background: #FFFFFF url(background.png) repeat;
   margin: auto;
-    width: 70%;
+    width: 90%;
    
    }
+ul{list-style-type:  none; }
 #app{ background-color: #F0EFE2;}
 .logo{
   
@@ -106,12 +107,45 @@ a:hover{color:  #67bb4c}
 
 .m-content {
   display: flex;
-  background-color:  #898888;
+  justify-content:  space-between;
+  background-color:  #C8C7C7
   }  
-.m-content> :first-child{background-color: red;
-flex: 1}
-.m-content > :last-child{background-color: yellowgreen;
-flex: 1}
+.m-content h3 {
+   border-bottom:#4C4E4A 1px dotted;
+  
+  }  
+input[type=text] {
+    background-color: #EEEEEE;
+    
+    border: #CCCBCB 1px solid;
+    color: #CCCBCB;
+    height: 2em;
+    padding: 2%;
+    margin: 2%;
+    box-sizing: border-box;
+}
+
+.m-content> :first-child{ background-color: rebeccapurple;
+flex: 50%}
+.m-content > :last-child{ 
+text-align:  right; background-color: royalblue;
+flex: 20%}
+.m-content  :last-child p{
+text-align:  center;
+ }
+.m-content  :last-child em{
+font-size: 2em;color:#67BB4C; }
+
+.pricing-card{background-color: #C8C7C7;
+text-align: center;}
+ 
+.pricing-card-header{ background-color:  #898888;
+font-size: 18px;color: white;}
+.pricing-card-header:hover{background-color:#67BB4C}
+.pricing-card-price{ 
+font-size: 30px;color: white;}
+
+ 
 
 .card{ background-color: #898888;
 margin: 5px;
@@ -164,12 +198,7 @@ blockquote {
  display: flex;
   justify-content: center;}
 
-input[type=text] {
-    width: 100%;
-    padding: 12px 20px;
-    margin: 8px 0;
-    box-sizing: border-box;
-}
+
 .curly-quotes:before {
   content: '\201C';
   margin-right: 4px;
